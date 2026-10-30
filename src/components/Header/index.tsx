@@ -3,6 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import menuData from "./menuData";
+import WhatsAppLink from "../Common/WhatsAppLink";
 
 const Header = () => {
   // Navbar toggle
@@ -181,14 +182,9 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 xl:pr-0">
-                <a
-                  href="https://wa.me/971521419334"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="ease-in-up hidden w-[110px] rounded-xs bg-[#25D366] py-3 text-center text-base font-medium text-white transition duration-300 hover:bg-[#25D366]/90 xl:block"
-                >
+                <WhatsAppLink className="ease-in-up hidden w-[110px] rounded-xs bg-[#25D366] py-3 text-center text-base font-medium text-white transition duration-300 hover:bg-[#25D366]/90 xl:block">
                   WhatsApp
-                </a>
+                </WhatsAppLink>
                 <a
                   href="tel:+971521419334"
                   className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 ml-4 hidden w-[110px] rounded-xs py-3 text-center text-base font-medium text-white transition duration-300 xl:block"

@@ -4,6 +4,7 @@ import EmergencyCTA from "@/components/Home/EmergencyCTA";
 import AreasCovered from "@/components/Home/AreasCovered";
 import { Section, SplitContent, DotList } from "@/components/Services/ServiceSections";
 import { Metadata } from "next";
+import WhatsAppLink from "@/components/Common/WhatsAppLink";
 
 export const metadata: Metadata = {
   title: "Warranty | Fix My Tyre",
@@ -11,7 +12,6 @@ export const metadata: Metadata = {
 };
 
 const PHONE = "+971521419334";
-const WHATSAPP = "https://wa.me/971521419334";
 
 const warrantyLengths = [{ value: "2", label: "Months Warranty on Every New Tyre" }];
 
@@ -82,9 +82,9 @@ const WarrantyPage = () => {
                   <a href={`tel:${PHONE}`} className="rounded-xs bg-primary px-6 py-3 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80">
                     Call Now
                   </a>
-                  <a href={WHATSAPP} target="_blank" rel="noopener noreferrer" className="inline-block rounded-xs bg-[#25D366] px-6 py-3 text-base font-semibold text-white duration-300 ease-in-out hover:bg-[#25D366]/90">
+                  <WhatsAppLink className="inline-block rounded-xs bg-[#25D366] px-6 py-3 text-base font-semibold text-white duration-300 ease-in-out hover:bg-[#25D366]/90">
                     WhatsApp Us
-                  </a>
+                  </WhatsAppLink>
                 </div>
               </div>
             </div>
