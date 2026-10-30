@@ -11,8 +11,8 @@ import HowItWorks from "@/components/Home/HowItWorks";
 import FAQ from "@/components/Home/FAQ";
 import EmergencyCTA from "@/components/Home/EmergencyCTA";
 
-const PHONE = "+971525688238";
-const WHATSAPP = "https://wa.me/971525688238";
+const PHONE = "+971521419334";
+const WHATSAPP = "https://wa.me/971521419334";
 const AREA_PHOTOS = 8;
 
 export function generateStaticParams() {

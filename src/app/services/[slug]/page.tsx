@@ -9,8 +9,8 @@ import { BrandImage, Section, SplitContent, PrimaryButton, DotList, CheckGrid, B
 import services from "@/data/services";
 import { notFound } from "next/navigation";
 
-const PHONE = "+971525688238";
-const WHATSAPP = "https://wa.me/971525688238";
+const PHONE = "+971521419334";
+const WHATSAPP = "https://wa.me/971521419334";
 
 export function generateStaticParams() {
   return services.map((service) => ({ slug: service.slug }));

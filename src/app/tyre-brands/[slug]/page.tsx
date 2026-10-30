@@ -7,8 +7,8 @@ import { BrandImage, Section, SplitContent, PrimaryButton, DotList } from "@/com
 import tyreBrands from "@/data/tyreBrands";
 import { notFound } from "next/navigation";
 
-const PHONE = "+971525688238";
-const WHATSAPP = "https://wa.me/971525688238";
+const PHONE = "+971521419334";
+const WHATSAPP = "https://wa.me/971521419334";
 
 export function generateStaticParams() {
   return tyreBrands.map((brand) => ({ slug: brand.slug }));

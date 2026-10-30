@@ -11,9 +11,9 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-flex items-center gap-2">
                   <img
-                    src="/images/logo/logo-tyreshop.jpg"
-                    alt="Fix My Tyre"
-                    className="h-16 w-auto object-contain"
+                    src="/images/logo/logo-tyreshop-new.png"
+                    alt="Tyre Shop Near Me"
+                    className="h-12 w-auto object-contain"
                   />
                 </Link>
                 <p className="mb-4 text-base leading-relaxed text-body-color dark:text-body-color-dark">
