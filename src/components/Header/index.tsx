@@ -68,7 +68,7 @@ const Header = () => {
                 } `}
               >
                 <img
-                  src="/images/logo/logo-fixmytyre.png"
+                  src="/images/logo/logo-tyreshop.jpg"
                   alt="Fix My Tyre"
                   className="h-14 w-auto object-contain xl:h-16"
                 />

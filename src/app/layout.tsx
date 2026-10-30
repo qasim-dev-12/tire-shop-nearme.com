@@ -4,11 +4,11 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HangingCTA from "@/components/Common/HangingCTA";
 import ScrollToTop from "@/components/ScrollToTop";
-import { Sora } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import Script from "next/script";
 import "../styles/index.css";
 
-const sora = Sora({ subsets: ["latin"], weight: ["400", "500", "600", "700"] });
+const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "500", "600", "700"] });
 
 const particles = [
   { left: 8, top: 12, size: 3, duration: 9, delay: 0 },
@@ -113,7 +113,7 @@ export default function RootLayout({
         </Script>
       </head>
 
-      <body className={`bg-black ${sora.className}`}>
+      <body className={`bg-black ${montserrat.className}`}>
         <div
           aria-hidden
           className="bg-particles-fade pointer-events-none fixed inset-0 -z-10 overflow-hidden"
