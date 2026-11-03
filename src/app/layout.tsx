@@ -145,40 +145,6 @@ export default function RootLayout({
             })();
           `}
         </Script>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-18535751802"
-          strategy="afterInteractive"
-        />
-        <Script id="gtag-init-4" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-18535751802');
-          `}
-        </Script>
-        <Script id="tel-click-conversion-4" strategy="afterInteractive">
-          {`
-            (function(){
-                document.addEventListener('click', function(e){
-                if(e.target.closest('a[href^="tel:"]')){
-                    gtag('event', 'conversion', {'send_to': 'AW-18535751802/GqcVCNikh7AdEPrAxIZF'});
-                }
-                });
-            })();
-          `}
-        </Script>
-        <Script id="whatsapp-click-conversion-4" strategy="afterInteractive">
-          {`
-            (function(){
-                document.addEventListener('click', function(e){
-                if(e.target.closest('a[href^="https://wa.me/"]')){
-                    gtag('event', 'conversion', {'send_to': 'AW-18535751802/myigCPbBhbAdEPrAxIZF'});
-                }
-                });
-            })();
-          `}
-        </Script>
       </head>
 
       <body className={`bg-black ${montserrat.className}`}>
