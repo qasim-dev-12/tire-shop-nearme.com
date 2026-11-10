@@ -154,10 +154,16 @@ export default function RootLayout({
               name: "Tyre Shop Near Me",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Warsan First - Dubai International City",
-                addressLocality: "Dubai",
+                streetAddress:
+                  "Office No. SM1-02-402, Malik Mohammed Saeed Harib, Port Saeed",
+                addressLocality: "Deira, Dubai",
                 addressRegion: "Dubai",
                 addressCountry: "AE",
+              },
+              identifier: {
+                "@type": "PropertyValue",
+                name: "Trade License",
+                value: "707459",
               },
             }),
           }}

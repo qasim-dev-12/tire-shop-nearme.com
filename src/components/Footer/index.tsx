@@ -21,8 +21,12 @@ const Footer = () => {
                   replacement service in Dubai, specialising in on-the-spot
                   automotive services, available 24/7, 365 days a year.
                 </p>
+                <p className="mb-1 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  Office No. SM1-02-402 - Malik Mohammed Saeed Harib - Port
+                  Saeed - Deira, Dubai
+                </p>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  CITY, England Y10 - Warsan First - Dubai International City - Dubai
+                  Trade License 707459
                 </p>
                 <div className="flex items-center">
                   <a
