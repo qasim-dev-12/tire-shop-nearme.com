@@ -41,8 +41,8 @@ const TrustIntro = () => {
             </h2>
             <p className="mx-auto mb-8 max-w-2xl text-base leading-relaxed text-body-color-dark md:mx-0">
               Whether you need an emergency tyre repair in Dubai at 3 AM or
-              want to order a new tyre online with same-day fitting, Fix My
-              Tyre delivers a seamless experience across the UAE. Trusted
+              want to order a new tyre online with same-day fitting, Tyre
+              Shop Near Me delivers a seamless experience across the UAE. Trusted
               for fast, on-site tyre service, 24/7.
             </p>
 
