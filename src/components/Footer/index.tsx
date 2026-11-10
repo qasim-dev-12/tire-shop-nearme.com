@@ -22,7 +22,7 @@ const Footer = () => {
                   automotive services, available 24/7, 365 days a year.
                 </p>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Building # 10 Sheikh Zayed Road - Dubai
+                  CITY, England Y10 - Warsan First - Dubai International City - Dubai
                 </p>
                 <div className="flex items-center">
                   <a

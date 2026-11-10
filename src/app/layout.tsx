@@ -145,6 +145,23 @@ export default function RootLayout({
             })();
           `}
         </Script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: "Fix My Tyre",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "Warsan First - Dubai International City",
+                addressLocality: "Dubai",
+                addressRegion: "Dubai",
+                addressCountry: "AE",
+              },
+            }),
+          }}
+        />
       </head>
 
       <body className={`bg-black ${montserrat.className}`}>
