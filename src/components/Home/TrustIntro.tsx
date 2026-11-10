@@ -15,7 +15,7 @@ const TrustIntro = () => {
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl ring-1 ring-primary/20">
               <Image
                 src="/images/about/technician-tyre-fitting.png"
-                alt="Fix My Tyre technician fitting a tyre on-site in Dubai at night"
+                alt="Tyre Shop Near Me technician fitting a tyre on-site in Dubai at night"
                 fill
                 className="object-cover"
               />

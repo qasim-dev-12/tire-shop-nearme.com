@@ -17,7 +17,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-4 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Fix My Tyre is your one-stop mobile tyre repair and
+                  Tyre Shop Near Me is your one-stop mobile tyre repair and
                   replacement service in Dubai, specialising in on-the-spot
                   automotive services, available 24/7, 365 days a year.
                 </p>
@@ -106,7 +106,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Fix My Tyre
+                  Tyre Shop Near Me
                 </h2>
                 <ul>
                   <li>
@@ -198,7 +198,7 @@ const Footer = () => {
           <div className="h-px w-full bg-linear-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              © {new Date().getFullYear()} Fix My Tyre. All rights reserved. Genuine tyres, 24/7 doorstep fitting across the UAE.
+              © {new Date().getFullYear()} Tyre Shop Near Me. All rights reserved. Genuine tyres, 24/7 doorstep fitting across the UAE.
             </p>
           </div>
         </div>

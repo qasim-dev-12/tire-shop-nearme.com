@@ -172,7 +172,7 @@ const ServicePage = async ({
         <Section>
           <SplitContent
             imageSrc={service.whyChooseUsImage ?? "/tyres/why-choose.png"}
-            imageAlt="Why Choose Fix My Tyre"
+            imageAlt="Why Choose Tyre Shop Near Me"
             badge={
               <span className="absolute -top-3 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-primary px-3 py-1.5 text-xs font-semibold text-white shadow-lg sm:px-5 sm:py-2 sm:text-sm lg:left-0 lg:translate-x-0">
                 11+ Years Experience
@@ -180,7 +180,7 @@ const ServicePage = async ({
             }
           >
             <h2 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white sm:text-3xl">
-              {service.whyChooseUsTitle ?? "Why Choose Fix My Tyre?"}
+              {service.whyChooseUsTitle ?? "Why Choose Tyre Shop Near Me?"}
             </h2>
             <p className="mb-6 text-base leading-relaxed text-body-color">{service.whyChooseUsIntro}</p>
             <ul className="mb-6 space-y-3 border-l-2 border-primary/20 pl-5">

@@ -8,7 +8,7 @@ const testimonialData: Testimonial[] = [
     name: "Adeel",
     designation: "Sheikh Zayed Road, Dubai",
     content:
-      "Fix My Tyre saved me in the middle of the night. Technician arrived in 30 minutes, fixed my flat tyre, professional and quick. Highly recommended!",
+      "Tyre Shop Near Me saved me in the middle of the night. Technician arrived in 30 minutes, fixed my flat tyre, professional and quick. Highly recommended!",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
@@ -26,7 +26,7 @@ const testimonialData: Testimonial[] = [
     name: "Rashid",
     designation: "Sports City, Dubai",
     content:
-      "Had a flat tyre late at night. Fix My Tyre were the only service that got back to me on the half-hour weekend. Genuinely impressed.",
+      "Had a flat tyre late at night. Tyre Shop Near Me were the only service that got back to me on the half-hour weekend. Genuinely impressed.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },

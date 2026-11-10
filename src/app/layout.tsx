@@ -151,7 +151,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              name: "Fix My Tyre",
+              name: "Tyre Shop Near Me",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Warsan First - Dubai International City",

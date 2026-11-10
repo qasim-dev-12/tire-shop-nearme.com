@@ -114,7 +114,7 @@ const Header = () => {
                       className="icon-float h-8 w-8 object-contain"
                     />
                     <span className="text-dark dark:text-white text-sm font-semibold">
-                      Fix My Tyre <span className="text-primary">On-Site</span>
+                      Tyre Shop Near Me <span className="text-primary">On-Site</span>
                     </span>
                   </div>
                   <ul className="block xl:flex xl:w-full xl:items-center xl:justify-center xl:gap-x-16">
